@@ -1,0 +1,10 @@
+# Luau sources and text stay LF so diffs do not churn on CRLF
+* text=auto eol=lf
+
+*.rbxl binary
+*.rbxlx binary
+*.rbxm binary
+*.rbxmx binary
+*.png binary
+*.jpg binary
+*.gif binary

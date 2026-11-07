@@ -1,0 +1,18 @@
+# Built packages and local places
+build/
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+__pycache__/

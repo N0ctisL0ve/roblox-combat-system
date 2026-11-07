@@ -1,0 +1,36 @@
+{
+  "name": "roblox-combat-system",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Combat": {
+        "$path": "Shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "CombatBootstrap": {
+        "$path": "Server/CombatBootstrap.server.luau"
+      },
+      "Combat": {
+        "$path": "Server/Combat"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "CombatClient": {
+          "$path": "Client/CombatClient.client.luau"
+        },
+        "Combat": {
+          "$path": "Client/Combat"
+        }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace"
+    }
+  }
+}
